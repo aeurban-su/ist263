@@ -29,7 +29,8 @@ header {
     padding: 40px, 40px;
 }
 .navlinks li a:hover {color:#fee440;} 
-.navlink li a:visited {color: #ff865e;} 
+.navlinks li a:visited {color: #ff865e;} 
+
 
 
 .icons li{
@@ -47,10 +48,18 @@ header {
 .part2 {display: flex;}
 .part2 article {padding: 20px;}
 .article1, .article2, .article3 {margin: 10px;}
+.article1 {flex: 1; order: 1; background-color: #afdbf5; border-radius:1em;}
+.article2 {flex: 1; order:2; background-color:#fee440; border-radius:1em;}
+.article3 {flex: 1; order:3; background-color: #ff865e ; border-radius:1em;}
 
 .left {display: block;}
 
+.logo {width: 220px;}
+
 @media only screen and (max-width: 600px) {
-    nav a {width: 100%; display: block; padding:8px}}
+    nav a {width: 100%; display: block; padding:8px}
     main {width: 100%; display: block; padding:20px}
     .icons {width: 100%; display: block; padding:8px}
+    .logo {width:150px;}
+    .article1, .article2, .article3 {flex-wrap: wrap;}
+}
