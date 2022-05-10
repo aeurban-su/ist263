@@ -71,7 +71,7 @@ span {
 .article1, .article2, .article3 {margin: 10px; align-items: center;}
 .article1 {flex: 1; order: 1; background-color: #afdbf5; border-radius:1em;}
 .article2 {flex: 1; order:2; background-color:#fee440; border-radius:1em;}
-.article3 {flex: 1; order:3; background-color: #ec9d82 ; border-radius:1em;}
+.article3 {flex: 1; order:3; background-color: #f3ae97 ; border-radius:1em;}
 
 .left {display: block;}
 
